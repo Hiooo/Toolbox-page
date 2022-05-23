@@ -37,8 +37,8 @@ jobs:
     - name:   Import order check
       run:    poetry run isort . --check
 
-    - name:   Type check
-      run:    poetry run mypy . --disallow-untyped-defs --ignore-missing-imports
+    # - name:   Type check
+    #   run:    poetry run mypy . --disallow-untyped-defs --ignore-missing-imports
       
     - name:   Black check
       run:    poetry run black . --check
