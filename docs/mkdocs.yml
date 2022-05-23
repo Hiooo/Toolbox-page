@@ -12,7 +12,7 @@ edit_uri:  'edit/main/docs/equinor-example'
 
 
 # Source and build destination
-docs_dir: 'docs/equinor-example'
+docs_dir: 'equinor-example'
 site_dir: 'build'
 
 # Copyright, do not edit
