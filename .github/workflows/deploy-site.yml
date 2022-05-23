@@ -32,8 +32,8 @@ jobs:
       - name: Install Poetry
         run: poetry install
           
-      - name: Build docs with Sphinx
-        run: poetry run sphinx-build -b html docs/source/sphinx-example docs/build/sphinx-example
+      # - name: Build docs with Sphinx
+      #   run: poetry run sphinx-build -b html docs/source/sphinx-example docs/build/sphinx-example
 
       - name: Build docs with MkDocs
         run: poetry run mkdocs build --config-file docs/mkdocs.yml
