@@ -102,3 +102,4 @@ nav:
   - Get Started:
     - Overview:       get-started/overview.md
     - Example:        get-started/example.md
+  - Sign Out: /logout

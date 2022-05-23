@@ -36,10 +36,10 @@
             "route": "/authenticated_role.html",
             "allowedRoles": ["authenticated"]  // Limit /authenticated access to only users that have been authenticated (logged in with Azure AD)
         },
-        {
-            "route": "/index.html",
-            "allowedRoles": ["anonymous"]  // Allow anonymous access to the top level url
-        },
+        // {
+        //     "route": "/index.html",
+        //     "allowedRoles": ["anonymous"]  // Allow anonymous access to the top level url
+        // },
         {
             "route": "/*",
             "allowedRoles": ["authenticated"]
