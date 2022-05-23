@@ -6,14 +6,14 @@ site_url:         'https://ambitious-rock-029e94603.1.azurestaticapps.net/equino
 
 
 # Repository, edit to point to appropriate repo
-repo_name: 'equinor/az-static-web-app-docs-template'
-repo_url:  'https://github.com/equinor/az-static-web-app-docs-template'
-edit_uri:  'edit/main/docs/source/equinor-example'
+repo_name: 'Hiooo/Toolbox-page'
+repo_url:  'https://github.com/Hiooo/Toolbox-page'
+edit_uri:  'edit/main/docs/equinor-example'
 
 
 # Source and build destination
-docs_dir: 'source/equinor-example'
-site_dir: 'build/equinor-example'
+docs_dir: 'docs'
+site_dir: 'build'
 
 # Copyright, do not edit
 copyright: 'Copyright &copy; 2021 Equinor'
